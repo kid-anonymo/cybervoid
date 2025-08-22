@@ -1,69 +1,105 @@
-﻿body {
-      background: url('imgs/fundo.jpeg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 100vh;
-      background-attachment: fixed;
-    }
-    h5 {
-      color: rgb(0, 133, 18);
-      font-size: 16px;
-    }
-    center {
-     color: rgb(255, 255, 255);
-     font-size: 16px; 
-    }
-    p {
-     color: rgb(0, 133, 18);
-     font-size: 16px;   
-    }
-    strong {
-     color: rgb(105, 231, 122);
-     font-size: 16px;
-    }
-    h3 {
-      color: rgb(252, 252, 252);
-      font-size: 16px;
-    }
-    h2 {
-      color: rgb(255, 255, 255);
-      font-size: 16px;
+body {
+  background: url('imgs/fundo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
 
-    }
+h5 {
+  color: rgb(0, 133, 18);
+  font-size: 16px;
+}
 
-    #container {
-      display: flex;
-      flex-wrap: wrap;
- }
+center {
+  color: rgb(255, 255, 255);
+  font-size: 16px; 
+}
 
-   #container > div:first-child {
-     width: 300px;
+p {
+  color: rgb(0, 133, 18);
+  font-size: 16px;   
+}
+
+strong {
+  color: rgb(105, 231, 122);
+  font-size: 16px;
+}
+
+h3 {
+  color: rgb(252, 252, 252);
+  font-size: 16px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+/* Layout principal */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Menu lateral */
+.menu {
+  width: 300px;
+  background: #111;
+  padding: 10px;
+  border-right: 2px solid rgb(29, 126, 0);
+}
+
+.menu-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.menu-links {
+  text-align: center;
+}
+
+.menu-links a {
+  display: block;
+  margin: 8px 0;
+  color: cyan;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-links a:hover {
+  color: lime;
+}
+
+/* Conteúdo */
+.conteudo {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner, .campeonato {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
   }
 
-    #container > div:nth-child(2) {
-      width: 2px;
-      background-color: rgb(29, 126, 0);
-    }
-
-    #container > div:last-child {
-      flex: 1;
-      min-width: 300px;
-     }
-
-     @media (max-width: 768px) {
-    #container {
-       flex-direction: column;
-       align-items: center;
-       }
-
-    #container > div:first-child,
-    #container > div:nth-child(2),
-    #container > div:last-child {
-     width: 100% !important;
+  .menu {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid rgb(29,126,0);
   }
 
-    #container > div:nth-child(2) {
-     height: 2px;
-   }
+  .conteudo {
+    width: 100%;
+  }
 }
