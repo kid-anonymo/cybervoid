@@ -1,0 +1,35 @@
+﻿body {
+      background: url('imgs/fundo.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      background-attachment: fixed;
+    }
+    h5 {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+    }
+    center {
+     color: rgb(49, 148, 3);
+     font-size: 16px; 
+    }
+    p {
+     color: rgb(0, 133, 18);
+     font-size: 16px;   
+     text-align: center;
+    }
+    
+    h3 {
+      color: rgb(252, 252, 252);
+      font-size: 16px;
+    }
+    h2 {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+    }
+    .center {
+      color: aliceblue;
+      font-size: 19px;
+      text-align: center;
+    }
