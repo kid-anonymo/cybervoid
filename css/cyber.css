@@ -59,7 +59,9 @@ form {
   form {
     width: 100%; /* no celular ocupa toda a tela */
     padding: 15px;
+    text-align: center;
   }
 }
+
 
 
