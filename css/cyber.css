@@ -52,6 +52,7 @@ form {
   max-width: 600px; /* limita no desktop */
   margin: 0 auto; /* centraliza */
   padding: 10px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -60,4 +61,5 @@ form {
     padding: 15px;
   }
 }
+
 
