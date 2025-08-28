@@ -39,6 +39,14 @@
     #test {
       font-size: 20px;
     }
+    #container {
+      display: flex;
+      flex-direction: row;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
   
 form {
   max-width: 600px; /* limita no desktop */
@@ -52,3 +60,4 @@ form {
     padding: 15px;
   }
 }
+
