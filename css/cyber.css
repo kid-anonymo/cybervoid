@@ -1,0 +1,124 @@
+﻿body {
+      background: url('imgs/fundo.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h5 {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+    }
+    #left {
+      text-align: left
+    }
+   header {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* alinha no centro horizontal */
+    align-items: center;     /* alinha no centro vertical */
+    background: rgb(105, 116, 95);
+    }
+
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 10px;
+      color: rgb(238, 19, 19);
+      font-size: 20px;
+    }
+    #test4 {
+      text-align: left;
+      margin-left: 150px;
+    }
+
+    
+    #test3 {
+      background: local;
+      color: rgb(4, 226, 4);
+    }
+    #test2 {
+      background: darkgreen;
+      color: aliceblue;
+      font-size: 20px;
+
+    }
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+    center {
+     color: rgb(255, 255, 255)
+    }
+    .botao {
+      background: local;
+      text-decoration: none;
+    }
+    .botao:hover {
+     background: red;
+    }
+    p {
+     color: rgb(255, 255, 255);
+     font-size: 16px;   
+     text-align: center;
+     margin-left: 150px;
+    }
+    h1 {
+      color: rgb(29, 145, 0);
+    }
+    h3 {
+      color: rgb(84, 230, 0);
+      font-size: 20px;
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+    h2 {
+      color: rgb(84, 230, 0);
+      font-size: 20px;
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+    .center {
+     margin-left: 150px;
+     margin-right: 150px;
+    }
+    .fonte-30 {
+      font-size: 30px;
+    }
+    @media (max-width: 768px) { 
+      p, h3, h5 {
+     font-size: 16px; /* ajusta para celular */
+     line-height: 1.5; /* melhora a leitura */
+    }
+  }
+    #test {
+      font-size: 20px;
+    }
+    #container {
+      display: flex;
+      flex-direction: row;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  
+form {
+  max-width: 600px; /* limita no desktop */
+  margin: 0 auto; /* centraliza */
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 100%; /* no celular ocupa toda a tela */
+    padding: 15px;
+  }
+}

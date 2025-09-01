@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+ <head>
+  <meta charset=utf-8>
+  <title>Recrutamento Cyber</title>
+  <link rel="stylesheet" href="css/cyber.css">
+  <link rel="icon" type="image/png" href="css/imgs/logo1.png">
+ </head>
+ <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="botao" href="index.html">INICIO |</a></li>
+        <li><a class="botao" href="portal.html">CAMPEONATOS |</a></li>
+        <li><a class="botao" href="formu.html">SEJA RECRUTADO |</a></li>
+        <li><a class="botao" href="formulario.html">TODOS OS GRUPOS BR EXISTENTES</a></li>
+        <hr/>
+      </ul>
+    </nav>
+  </header>
+  <center><img src="imagens/banner-among.jpeg" width="250" height="200"/>
+  <form method="post" action="">
+    <p class="center fonte-30" id="test3">SEJAM BEM VINDOS AO RECRUTAMENTO</p>
+   <table>
+    <tr>
+     <td colspan="2"><hr/></td>
+    </tr>
+    <tr>
+     <td><label for="nome"><strong id="test3">Nome e Nickname:</strong></label></td>
+     <td><label for="level"><strong id="test3">Level no among:</strong></label></td>
+    </tr>
+    <tr>
+     <td align="center"><input type="text" id="nome" name="nome" placeholder="Digite seu Nome e Nick (Ex: Theo/FERA)" size="40" required /></td>
+     <td><input type="text" id="level" name="level" placeholder="Digite seu Level do among" size="40" required /></td>
+    </tr>
+    <tr>
+     <td><label for="telefone"><strong id="test3">Telefone:</strong></label></td>
+     <td><label for="nascimento"><strong id="test3">Data de Nascimento:</strong></label></td>
+    </tr>
+    <tr>
+     <td align="center"><input type="tel" id="telefone" name="telefone" placeholder="Digite seu numero de telefone para contato" size="40" required /></td>
+     <td><input type="date" id="nascimento" name="nascimento" max="2020-05-23" min="1930-01-01" size="40" required /></td>
+    </tr>
+    <tr>
+     <td><strong id="test3">Sexo: </strong></td>
+     <td colspan="2"><label for="arquivo"><strong id="test3">Envie um print da sua conta do Among para evitar fakes:</strong></label></td>
+    </tr>
+    <tr>
+     <td>
+      <select name="sexo" id="sexo">
+       <option selected disabled value="">Selecione seu sexo</option>
+       <option value="masculino">Masculino</option>
+       <option value="feminino">Feminino</option>
+       <option value="trans">Transsexual</option>
+       <option value="helicopter">Hélicoptero de Combate</option>
+       <option value="transformer">Transformer</option>
+       <option value="belucio">Belucio</option>
+      </select>     
+     </td>
+     <td colspan="2"><input type="file" id="arquivo" name="arquivo" /></td>
+    </tr>
+    <tr>
+     <td colspan="2"><hr/></td>
+    </tr>
+    <tr>
+     <td>
+      <input type="reset" value="Limpar Campos" />
+     </td>
+    </tr>
+    <tr>
+      <td><input type="submit" id="test2" value="Enviar formulario"/></td>
+    </tr>
+   </table>
+  </form></center>
+ </body>
+</html>
